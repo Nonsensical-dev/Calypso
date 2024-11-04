@@ -1,0 +1,5 @@
+[profile.release]
+# Release-only flags
+rustflags = [
+    "-Zlocation-detail=none"
+]
