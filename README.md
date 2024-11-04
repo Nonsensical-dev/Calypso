@@ -1,30 +1,28 @@
 # Calypso 🌍
 
 ## What is Calypso?
-Calypso is a (WIP) mod loader written by the team at [Nonsensical Dev]() aimed at making it easier than ever for developers to create a quick and simple modding API for their Godot games. Calypso can be easily tailored to fit the developers needs/desires, including options for speed, binary size optimization, custom path configuration, and serveral internal options to play with.
+Calypso is a (WIP) mod loader written by the team at [Nonsensical Dev]() aimed at making it easier than ever for developers to create a quick and simple modding API for their Godot games. Calypso can be easily tailored to fit the developer's needs/desires, including options for speed, binary size optimization, custom path configuration, and several internal options to play with.
 
 ## Why?
 
-Modding has become an integral part of the gaming world, allowing players to customize their experince while playing your game to their hearts content. Calypso's goal is to lower the barrier of entry to growing your games lifespan and more easily fostering a community, simplifying the process for both the developer and end user.
+Modding has become an integral part of the gaming world, allowing players to customize their experience while playing your game to their heart's content. Calypso's goal is to lower the barrier of entry to growing your game's lifespan and more easily fostering a community, simplifying the process for both the developer and end user.
 
-~~And its written in rust 🦀~~
-
+~~And it's written in Rust 🦀~~
 
 ## Getting started
 
-Simply add calypso as a submodule in your `res://addons` folder or download the folder from the [Releases]() tab and place it in the addons folder.
+Simply add Calypso as a submodule in your `res://addons` folder or download the folder from the [Releases]() tab and place it in the addons folder.
 
-Afterwards restart Godot, and your ready to start using Calypso!
+Afterward, restart Godot, and you're ready to start using Calypso!
 
 ## Usage
 
-As of right now, Calypso is in incredibly early stages. Calypso should NOT be used in any sort of production enviornment whatsoever
+As of right now, Calypso is in incredibly early stages. Calypso should NOT be used in any sort of production environment whatsoever.
 
-Beacause of this, running calypso standalone simply outputs an example `*.cy` file (Calypso module)
+Because of this, running Calypso standalone simply outputs an example `*.cy` file (Calypso module).
 
 ## Documentation
-WIP. check back later. Or you could [Contribute!]()
-
+WIP. Check back later. Or you could [Contribute!]()
 
 ## Roadmap
 
@@ -43,8 +41,9 @@ WIP. check back later. Or you could [Contribute!]()
     * (Optional) Built in debugging GUI
 * [ ] Soon™
   * Add custom bindings support
-  * Add OFFICIAL support for lua❓
-  * OFFICIAL Mac support (Both runtime and development)
+  * Add OFFICIAL support for Lua❓
+  * OFFICIAL Mac support (both runtime and development)
+
 ## FAQ
 ### What platforms does Calypso support?
 
@@ -64,13 +63,13 @@ Currently, hot-reloading is not available, but it’s on our roadmap as we refin
 
 ### What kind of file format does Calypso use for mods? How does Calypso work?
 
-Calypso uses a custom *.cy file format for its modules, which is still under development. More details about this format will be included in future documentation.
+Calypso uses a custom `*.cy` file format for its modules based on TOML. More details about this format will be included in future documentation.
 
 ### How customizable is Calypso?
 
 Calypso is designed to be flexible, offering developers options for custom paths, binary size optimization, and even support for disabling certain namespaces to maintain security. As Calypso matures, we aim to make customization even more extensive.
 
-### How can I Help?
+### How can I help?
 
 We’re always open to contributions! Check our Contribute page for details on how to get started. Whether you want to improve documentation, fix bugs, or add new features, your help is welcome.
 
@@ -81,6 +80,6 @@ A built-in GUI for debugging and managing mods is on our roadmap but is currentl
 ## Credits
 [@Caznix](https://github.com/Caznix) - Creator of Calypso
 
-[Godot rust](https://godot-rust.github.io/) - Creator of the amazing Godot Rust GDExtension bindings
+[Godot Rust](https://godot-rust.github.io/) - Creators of the amazing Godot Rust GDExtension bindings
 
 [Godot Sandbox](https://github.com/libriscv/godot-sandbox) - Inspiration for the creation of Calypso
