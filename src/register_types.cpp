@@ -2,6 +2,7 @@
 #include "calypso.h"
 #include <gdextension_interface.h>
 #include <godot_cpp/core/class_db.hpp>
+#include <godot_cpp/classes/engine.hpp>
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
 
@@ -12,13 +13,18 @@ void initialize_calypso_types(ModuleInitializationLevel p_level)
 	if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
 		return;
 	}
-	ClassDB::register_class<Calypso>();
+	//ClassDB::register_class<Calypso>();
+	GDREGISTER_CLASS(Calypso);
+	
+	Engine::get_singleton()->register_singleton("Calypso",calypso);
 }
 
 void uninitialize_calypso_types(ModuleInitializationLevel p_level) {
 	if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
 		return;
 	}
+	Engine::get_singleton()->unregister_singleton("Calypso");
+	memdelete(calypso);
 }
 
 extern "C"

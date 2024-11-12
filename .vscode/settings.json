@@ -122,4 +122,5 @@
         "**/*.ilk": true,
         "**/*.pdb": true
     },
+    "cmake.ignoreCMakeListsMissing": true,
 }

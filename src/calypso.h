@@ -17,9 +17,16 @@ class Calypso : public Object
 
 protected:
     static void _bind_methods();
+private:
+    static inline Calypso* singleton = nullptr;
 
-public:
     Calypso();
+public:
+
+    //Calypso(const Calypso&) = delete;
+    //void operator=(const Calypso&) = delete;
+
+    static Calypso* get_singleton();
     ~Calypso();
     void init();
 };
