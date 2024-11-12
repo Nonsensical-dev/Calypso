@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Calypso" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Very short and brief description.
+	</brief_description>
+	<description>
+		This is a very long description. You can use [b]bold[/b], [i]italic[/i], [u]underlined[/u], [code]code[/code] and other cool things supported by BBCode tags.
+	</description>
+	<tutorials>
+		<link title="Calypso Docs">https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/custom_modules_in_cpp.html</link>
+	</tutorials>
+	<methods>
+		<method name="Example method">
+			<return type="void" />
+			<param index="0" name="value" type="int" default="1" />
+			<description>
+				Example description
+			</description>
+		</method>
+	</methods>
+</class>
