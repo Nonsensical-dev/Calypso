@@ -73,6 +73,7 @@ download Calypso from the [Releases]() tab and place in your `addons` folder.
 
 ### 🎨 For funsies
 - [ ] Official mod manager GUI
+- [ ] Official [Modrinth](https://modrinth.com/) style website
 
 ## Community/Support
 
@@ -163,5 +164,8 @@ A built-in GUI for debugging and managing mods is on our roadmap but is currentl
 <div align="center">
   
 Made with ❤️ by Nonsensical Dev & the open source community
-  
+  <br>
+  <sub>🌟 Star us on GitHub | 📢 Share with friends | 🤝 Join the community</sub>
+  </div>
 </div>
+
