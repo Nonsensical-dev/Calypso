@@ -139,7 +139,7 @@ A built-in GUI for debugging and managing mods is on our roadmap but is currentl
 <tr>
 <td align="center">
 <a href="https://github.com/Caznix">
-<img src="/api/placeholder/100/100" width="100px;" alt="Caznix"/>
+<img src="https://github.com/Caznix.png" width="100px;" alt="Caznix"/>
 <br />
 <sub><b>@Caznix</b></sub>
 <br />
@@ -148,7 +148,7 @@ A built-in GUI for debugging and managing mods is on our roadmap but is currentl
 </td>
 <td align="center">
 <a href="https://github.com/libriscv/godot-sandbox">
-<img src="/api/placeholder/100/100" width="100px;" alt="Godot Sandbox"/>
+<img src="https://github.com/libriscv.png" width="100px;" alt="Godot Sandbox"/>
 <br />
 <sub><b>Godot Sandbox</b></sub>
 <br />
